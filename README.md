@@ -75,7 +75,30 @@ Observações: ***if*** usado para o se, ***else*** usado para o se não e ***el
 Observações: ***for in range*** // ***while*** usado para repetições, sequencia de numeros. ( o codigo a cima imprimi todos os numeros primos até 101 // imprimi todos os numeros ate 10)
 
 ## Listas e Operações com listas
+***Imprimindo um componete de uma lista***
 
+       lista_animal = ['gato' , 'papagaio' , 'cachorro']
+       print(lista_animal[0])                                    => " gato "
+       
+Observações: ***[]*** esse simbolo indica a presença de listas. No caso o codigo vai imprimir "gato" pois foi a posição que eu indiquei em [0]. Ja que na sequencia o programa começa a partir de 0, se eu quisesse imprimir cachorro seria o numero 2.
+
+***Somando uma lista***
+
+       lista = [1, 3, 4, 5]
+       print(sum(lista))        => "13"
+
+Observações: Se eu quisesse saber o maior ou menor numero da lista era só digitar ***"max"*** ou ***"min"***
+
+***Adicionando e Retirando itens da lista***
+
+       lista_animal = ['gato', "cachorro", 'papagaio']
+       if 'lobo' in lista_animal:
+           print('Existe lobo na lista')
+       else:
+           print('Não existe gato na lista')
+           lista_animal.append('lobo')
+           print('Foi adicionado um nome componente a lista: {}'.format(lista_animal))
+Dessa foram utilizando ***.append*** podemos adicionar um item não presente na lista. Mas para retirar usariamos o ***pop*** (para remover atraves da posição) e ***remove*** (atraves do nome).
 
 
 
