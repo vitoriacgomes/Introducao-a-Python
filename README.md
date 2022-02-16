@@ -5,8 +5,12 @@ Por [Vitória Gomes](https://github.com/vitoriacgomes)
 
 <details>
   <summary>Palavras reservadas no Python</summary>
-      São elas: and, as, assert, break, class, continue, def, del, elif, else, except, exec, finally, for, from, global, if, import, in, is, lambda, not, or, pass, print, raise, return, try, while, with e yield.
+      São elas: and, as, assert, break, class, continue, def (criar uma função), del, elif, else, except, exec, finally, for, from, global, if, import, in, is, lambda, not, or, pass, print, raise, return, try, while, with e yield.
+  
+ Dicionario: Int (numeros inteiros variaveis)  e Float (numeros reais)
 </details>
+
+
 
 ## Operações Básicas no Python
 
