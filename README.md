@@ -107,9 +107,19 @@ Dessa foram utilizando ***.append*** podemos adicionar um item não presente na 
          print(lista_animal)
 Dessa forma eu consigo ordenar os componentes tanto em ordem alfabetica para letras, como numeros crescentes. Para inverter essa ordem basta usar: ***lista_animal.reverse()***
 
+***Tuplas***
+As tuplas são listas imutáveis representadas por ***'tupla = (1, 24, 38, 12)'***
 
+Informações ***+***: ***len*** em print(len(tupla)) serve para contar os componentes tanto da tupla como da lista.
 
+***Invertendo tuplas em lista e vice-versa***
 
+       tupla = (3,4)                                                     lista = [1,2]  
+       lista_t = list(tupla)                     or                      tupla_l = tuple(lista)
+       print(type(lista_t))                                              print(type(tupla_l))
+       print(lista_t)                                                    print(tupla_l)
+                     
+                    
 
 
 
