@@ -100,6 +100,12 @@ Observações: Se eu quisesse saber o maior ou menor numero da lista era só dig
            print('Foi adicionado um nome componente a lista: {}'.format(lista_animal))
 Dessa foram utilizando ***.append*** podemos adicionar um item não presente na lista. Mas para retirar usariamos o ***pop*** (para remover atraves da posição) e ***remove*** (atraves do nome).
 
+***Ordenando componentes de uma lista***
+
+         lista_animal = ['gato', "cachorro", 'papagaio', 'arara']
+         lista_animal.sort()
+         print(lista_animal)
+Dessa forma eu consigo ordenar os componentes tanto em ordem alfabetica para letras, como numeros crescentes. Para inverter essa ordem basta usar: ***lista_animal.reverse()***
 
 
 
