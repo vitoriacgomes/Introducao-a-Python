@@ -62,6 +62,9 @@ Informações : ***str*** = concatena o texto, ajuda o programa a indetificar o 
 Observações: ***if*** usado para o se, ***else*** usado para o se não e ***elif*** é a soma de if e else. // "=" (receber) e "==" (variavel resultado) // ***or*** usado como ou.
 ***not*** = negação a afrimação. 
 
+## Laços de repetição
+
+
 
 
 
