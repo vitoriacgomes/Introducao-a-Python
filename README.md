@@ -3,6 +3,11 @@ Por [Vitória Gomes](https://github.com/vitoriacgomes)
 
 * Apos configurar o ambiente baixando o Python na máquina e a IDE ( vou usar o Pycharm )
 
+<details>
+  <summary>Palavras reservadas no Python</summary>
+      São elas: and, as, assert, break, class, continue, def, del, elif, else, except, exec, finally, for, from, global, if, import, in, is, lambda, not, or, pass, print, raise, return, try, while, with e yield.
+</details>
+
 ## Operações Básicas no Python
 
 
