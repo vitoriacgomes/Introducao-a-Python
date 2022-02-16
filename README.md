@@ -63,6 +63,18 @@ Observações: ***if*** usado para o se, ***else*** usado para o se não e ***el
 ***not*** = negação a afrimação. 
 
 ## Laços de repetição
+       for num in range(101):                           a = 0
+       div = 0                                          while a <= 10:
+       for x in range(1, num+1):          or              print(a)
+          resto = num % x                               a += 1
+          if resto == 0:
+             div += 1
+       if div == 2:
+          print(num)
+
+Observações: ***for in range*** // ***while*** usado para repetições, sequencia de numeros. ( o codigo a cima imprimi todos os numeros primos até 101 // imprimi todos os numeros ate 10)
+
+## Listas e Operações com listas
 
 
 
