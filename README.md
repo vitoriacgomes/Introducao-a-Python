@@ -17,7 +17,8 @@ Por [Vitória Gomes](https://github.com/vitoriacgomes)
 
 
 ## Operações Básicas no Python
-
+<details>
+  <summary>Operações</summary>
 
        a = 10                                             
        b = 5                                                   
@@ -56,9 +57,11 @@ Informações : ***str*** = concatena o texto, ajuda o programa a indetificar o 
        resultado =  ('Soma: {s}'
                       .format(s=soma, sub=subtracao, m=multiplicacao, d=divisao, r=resto))
        print (resultado)
-       
+ </details>
+  
 ## Relações das variáveis 
-
+<details>
+  <summary>Manipulação de variáveis</summary>
 
        a = int (input('Primeiro valor:'))
        b = int (input('Segundo valor:'))
@@ -75,7 +78,10 @@ Informações : ***str*** = concatena o texto, ajuda o programa a indetificar o 
 Observações: ***if*** usado para o se, ***else*** usado para o se não e ***elif*** é a soma de if e else. // "=" (receber) e "==" (variavel resultado) // ***or*** usado como ou.
 ***not*** = negação a afrimação. 
 
+ </details>
+
 ## Laços de repetição
+
        for num in range(101):                           a = 0
        div = 0                                          while a <= 10:
        for x in range(1, num+1):          or              print(a)
@@ -86,7 +92,7 @@ Observações: ***if*** usado para o se, ***else*** usado para o se não e ***el
           print(num)
 
 Observações: ***for in range*** // ***while*** usado para repetições, sequencia de numeros. ( o codigo a cima imprimi todos os numeros primos até 101 // imprimi todos os numeros ate 10)
-
+  
 ## Listas e Operações com listas
 ***Imprimindo um componete de uma lista***
 
