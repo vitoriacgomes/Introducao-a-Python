@@ -138,7 +138,16 @@ Informações ***+***: ***len*** em print(len(tupla)) serve para contar os compo
        print(type(lista_t))                                              print(type(tupla_l))
        print(lista_t)                                                    print(tupla_l)
                      
-                    
+## Conjuntos e Subconjuntos
+
+O bom dos conjuntos (representados por {}) é que podemos fazer varias operações com eles, como soma
+
+***Intercecção***
+
+        conjunto = {1, 2, 3, 4, 5}
+        conjunto2 = {5, 6, 7, 8}
+        conjunto_interseccao = conjunto.intersection(conjunto2)
+        print(conjunto_interseccao)
 
 
 
