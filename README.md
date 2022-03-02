@@ -149,6 +149,11 @@ O bom dos conjuntos (representados por {}) é que podemos fazer varias operaçõ
         conjunto_interseccao = conjunto.intersection(conjunto2)
         print(conjunto_interseccao)
 
+***subset***
+        conjuntoa = {1, 2, 3}
+        conjuntob = {1, 2, 3, 4, 5}
+        conjuntosubset = conjuntoa.issubset(conjuntob)
+        print(conjuntosubset)
 
 
 
