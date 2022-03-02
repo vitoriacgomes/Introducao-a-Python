@@ -156,6 +156,3 @@ O bom dos conjuntos (representados por {}) é que podemos fazer varias operaçõ
         print(conjuntosubset)
 
 
-
-
-
